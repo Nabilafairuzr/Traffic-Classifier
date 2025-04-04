@@ -67,24 +67,12 @@ You can run this project on **Google Colab** by copying the code into separate c
 
 The model is expected to achieve **≥ 95% accuracy** on the validation set after training for about 15 epochs. Make sure to normalize input data and apply dropout to prevent overfitting.
 
-## 🧪 Requirements
-
-- Python 3.x
-- TensorFlow 2.x
-- (Optional) Google Colab for faster training using GPU
 
 ## 💾 Output
 
-- Trained model saved as: `DCML3.h5`
+- Trained model saved as: `Traffic_Classifier.h5`
 
 ## 📚 Reference
 
 - [TensorFlow German Traffic Sign Dataset](https://storage.googleapis.com/download.tensorflow.org/data/certificate/germantrafficsigns.zip)
 - [GTSRB: German Traffic Sign Recognition Benchmark](https://benchmark.ini.rub.de/gtsrb_news.html)
-
-## 👨‍💻 Author
-
-Made with ❤️ by Nabila Fairuz Romadhona
----
-
-> If you find this useful, feel free to ⭐ this repo or contribute!
