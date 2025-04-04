@@ -1,17 +1,12 @@
 # Traffic-Classifier
 
-# 🛣️ German Traffic Sign Classification with CNN
 
-This project builds a Convolutional Neural Network (CNN) model using TensorFlow to classify **German traffic signs** into 43 unique classes based on image input.
+This project builds a Convolutional Neural Network (CNN) model using TensorFlow to classify **Traffic signs** into 43 unique classes based on image input.
 
 ## 🚀 Project Overview
 
-Traffic signs are crucial for road safety. This project aims to automatically classify traffic sign images using deep learning, specifically Convolutional Neural Networks. The dataset is sourced from the [German Traffic Sign Recognition Benchmark (GTSRB)].
+Traffic signs are crucial for road safety. This project aims to automatically classify traffic sign images using deep learning, specifically Convolutional Neural Networks. 
 
-The images are:
-- Size: **30x30 pixels**
-- Format: RGB
-- Classes: **43 different types of signs**
 
 ## 📁 Dataset
 
@@ -72,7 +67,3 @@ The model is expected to achieve **≥ 95% accuracy** on the validation set afte
 
 - Trained model saved as: `Traffic_Classifier.h5`
 
-## 📚 Reference
-
-- [TensorFlow German Traffic Sign Dataset](https://storage.googleapis.com/download.tensorflow.org/data/certificate/germantrafficsigns.zip)
-- [GTSRB: German Traffic Sign Recognition Benchmark](https://benchmark.ini.rub.de/gtsrb_news.html)
