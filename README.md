@@ -1,7 +1,7 @@
 # Traffic-Classifier
 
 
-This project builds a Convolutional Neural Network (CNN) model using TensorFlow to classify **Traffic signs** into 43 unique classes based on image input.
+This project builds a Convolutional Neural Network (CNN) model using TensorFlow to classify **Traffic signs**.
 
 ## 🚀 Project Overview
 
@@ -45,7 +45,7 @@ model = tf.keras.Sequential([
 
 ## ⚙️ How to Run
 
-You can run this project on **Google Colab** by copying the code into separate cells per session. The training process uses the downloaded dataset and will save the trained model as `DCML3.h5`.
+You can run this project on **Google Colab** by copying the code into separate cells per session. The training process uses the downloaded dataset and will save the trained model as `Traffic Classifier.h5`.
 
 ### Step-by-step:
 
@@ -58,9 +58,6 @@ You can run this project on **Google Colab** by copying the code into separate c
 7. Train the model
 8. Save and (optionally) download the model
 
-## 📈 Performance
-
-The model is expected to achieve **≥ 95% accuracy** on the validation set after training for about 15 epochs. Make sure to normalize input data and apply dropout to prevent overfitting.
 
 
 ## 💾 Output
